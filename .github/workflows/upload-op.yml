@@ -36,6 +36,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         df -hT $PWD
+        ls
         mkdir -p ./artifact/firmware
         mkdir -p ./artifact/package
         mkdir -p ./artifact/buildinfo
