@@ -1,4 +1,4 @@
-name: Build OpenWrt.timecloud
+name: Build OpenWrt.timecloud.upload
 
 on:
   repository_dispatch:
